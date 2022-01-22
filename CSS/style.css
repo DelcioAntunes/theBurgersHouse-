@@ -1,0 +1,312 @@
+@media only screen and (max-width:1024px) { 
+     .carousel-item .carousel-caption{
+          font-size: 80% !important;
+               position: absolute;
+               width: 600px !important;
+               left: 12%!important;
+     }
+
+     #section2{
+          font-size: 80%;
+     }
+
+     .bottleImage{
+          left: 2% !important;
+          position: absolute;
+          top: 22% !important;
+     }
+
+     .footerImgSize{
+          width: 180px !important;
+     }
+
+     #section3{
+          font-size:  80%;
+     }
+
+     
+}
+
+@media only screen and (max-width:800px){
+     #reservation img{
+          display: none;
+     }
+     #reservation input{
+          width: 95% !important;
+          height: 35px !important;
+     }
+
+     .shower{
+          width: 50%;
+          margin: auto;
+          font-size: 40%;
+     height: 300px !important;
+     }
+
+     .alwaysTastyBurger{
+          font-size: 75% !important;
+     }
+
+     .carrosselCostumized{
+          width: 80% !important;
+          height: 300px !important;
+     }
+
+
+}
+
+
+
+/*SETTINGS*/
+*{
+     box-sizing: border-box;
+}
+
+nav{
+     position: sticky !important;
+    top:0px;
+    z-index: 10;
+    background-color: white;
+}
+
+.letterColors{
+     color: rgb(66, 32,11) !important;
+}
+
+/*COSTUMIZED CLASSES*/
+.imgReceptorBuy{
+     height: 100px !important;
+}
+
+.divBuy  a i{
+     border-radius: 50%;
+     padding: 3px;
+     background-color: rgba(221, 221, 221,0.6);
+     font-size: 13px;
+}
+
+.preço::after{
+     content: " 0,35€";
+     color: rgb(65, 121, 9);
+}
+
+.buttonBuyCostumized{
+     position: absolute !important;
+      left: 110px;
+     width: 50%!important;
+}
+
+.footerbuycostumized{
+     height: 70px;
+     width: 100%;
+}
+
+.desabilitado{
+     font-size: 14px;
+     color: rgba(114, 112, 112, 0.9);
+}
+
+.carrosselCostumizedImage{
+     height: 100% !important;
+     width: 100% !important;
+     border-radius: 7px;
+}
+
+.shower{
+     height: 400px;
+}
+
+.divOurFood img, .divOurFood h3,.divOurFood p{
+     width: 80% !important;
+     margin: 10px auto;
+}
+
+.carrosselCostumized{
+     width: 500px;
+}
+
+.ul_Nav_costumize{
+     display: flex;
+     width: 50%;
+     list-style: none;
+     font-weight: 600;
+     justify-content: center !important;
+     text-align: center;
+     margin: 0;
+     padding: 0;
+}
+
+.footerImgSize{
+  width: 200px;   
+}
+
+.bottleImage{
+     left: 15%;
+     position: absolute;
+     top: 26%;
+}
+
+.plateImage{
+     position: absolute;
+     bottom: 0px;
+     right: 0px;
+     width:  140px;
+}
+
+.p-costumized, .p-costumized1, .p-costumized2{
+     left: 2%;
+}
+
+.btn-costumized:hover{
+     color: #dc3545 !important;
+     background-color: white !important;
+     transition: all ease-in-out 1s;
+}
+
+.section-Costumized2{
+     width: 100%;
+     height: 450px;
+}
+
+.form-control-size{
+     width: 300px !important;
+     height: 50px !important;
+     border: 2px solid  rgb(66, 32,11) !important;
+     border-radius: 5px !important;
+}
+
+.form-control-size2{
+     background-color: #dc3545 !important ;
+     color: #fff;
+     border: 2px solid  #dc3545 !important;
+     -webkit-box-shadow: 8px 8px 6px 1px #000000; 
+box-shadow: 8px 8px 6px 1px #000000;
+}
+
+.form-control-size2:hover{
+     background-color:transparent !important;
+     color: #dc3545;
+     transition: all ease-in-out .5s;
+}
+
+footer img{
+     width: 100%;
+     height: 400px;
+}
+
+.sectionCostumized{
+     width: 80%;
+     margin: auto;
+     height: 10%;
+    -webkit-box-shadow: 5px 5px 14px 5px #000000; 
+box-shadow: 5px 5px 14px 5px #000000;
+}
+
+.product-image{
+     width: 70% !important;
+     height: 60% !important;
+}
+
+.nav_Costumize{
+     z-index: 10 ;
+     display: flex;
+     align-items: center !important;
+     height: 60px ;
+}
+
+.nav_Costumize a{
+text-decoration: none;
+}
+
+.logo_costumized{
+     text-align: center;
+     display: flex;
+     align-items: center !important;
+}
+
+.alwaysTastyBurger{
+     background-color: yellow;
+     margin: 0;
+     border:3px solid black;
+     margin:auto !important;
+     width: 25%;
+     height: 5%;
+     text-decoration: none;
+     font-size: 20px;
+     display: block;
+     transition: all ease-in-out .5s !important;
+}
+
+.alwaysTastyBurger:hover{
+     color: #fff !important;    
+}
+
+/*SPECIFICATIONS*/
+.carousel-item img{
+     height:650px   !important;
+}
+
+
+
+.carousel-item .carousel-caption {
+     position: absolute;
+     top: 42%;
+     bottom: 50%;
+     background-color: rgba(221, 221, 221,0.3);
+     height: 18%;
+     z-index: 9;
+     width: 800px !important;
+}
+
+.form-costumized{
+     width: 600px !important;
+}
+
+.sectionCostumized img{
+     height: 30%;
+     width: 45%;
+     border-radius: 7px;
+}
+
+     /*GRID GENERETED*/
+
+.parent {
+     display: grid;
+     grid-template-columns: repeat(6, 1fr);
+     grid-template-rows: repeat(6, 1fr);
+     grid-column-gap: 20px;
+     grid-row-gap: 20px;
+     }
+     
+     .div1 {
+           grid-area: 4 / 4 / 7 / 7;
+           background-image: url("..//imgs/informativos/03.jpg");
+     }
+     .div2 {
+           grid-area: 1 / 4 / 4/ 7;
+           background-image: url("..//imgs/informativos/02.jpg");    
+     }
+     .div3 {
+           grid-area: 1 / 1 / 7 / 4;
+           background-image: url("..//imgs/informativos/01.jpg");
+     }
+
+     .div1, .div2, .div3{
+          background-position:center ;
+           background-repeat: no-repeat;
+           background-size: cover;      
+           border-radius: 20px; 
+           cursor: pointer;
+           position: relative;
+     }
+
+     .div1:hover, .div2:hover, .div3:hover{
+     transform: scale(1.05);
+     transition-duration: .5s;
+     transition-delay: .5s; 
+}
+
+
+
+
+  
